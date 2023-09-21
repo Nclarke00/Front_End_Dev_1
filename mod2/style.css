@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(255, 215, 0);
+}
+
+.button-container {
+    text-align: center; /* Center the buttons */
+}
+
+.button-container button {
+    margin: 5px auto;
+}
+
+/* Remove bullet points from unordered lists */
+.button-list {
+    list-style-type: none;
+}
+
+/* Remove list-style markers from list items within button-list class */
+.button-list li {
+    list-style: none !important; /* Use !important to override other styles if necessary */
+}
