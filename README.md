@@ -17,3 +17,8 @@ ski mountains, best climbing spots, who will win thursday night football, my top
 video games which you can upvote and downvote, and a suggestion section for the best bars in 
 
 denver/boulder with the option to upvote and downvote. 
+
+
+
+# milestone 2
+
