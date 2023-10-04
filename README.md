@@ -29,3 +29,7 @@ help specifically with the buttons that link to other websites.
 # Assignment 1: Javascript and the DOM
 
 For assignment 1 I created a page that contain three different buttons. The first two buttons do nothing, however when you hover your mouse over the buttons, they will highlight red. The third button will go through a list of three different sentences. Additionally, you can use your right arrow key to move through the list. I found a lot of the basic skeleton from stack overflow. When Trouble shooting, I used chat gtp text to help me diagnose problems. I had a particularly difficult time figuring out the feature that changes the displayed sentance, so I had my roommate Amey, a cybersecurity student, help me get that part running effectively. 
+
+# Assignment 2
+
+For assignemt 2, I used stack overflow for some of the base code. I used it to learn about the "for" attribute in a <label> tag. I also used stack overflow to learn how to use the <select> element to create a dropdown menu. Using these peices of information, I was able to create a form where the user can input their name, date of birth and other personal information. 
