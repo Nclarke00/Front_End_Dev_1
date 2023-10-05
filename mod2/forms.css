@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(121, 154, 215);
+}
+
+button {
+    text-align: center; 
+    background-color: rgb(191, 217, 238); 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+/* Change button color to red when hovered over */
+button:hover {
+    background-color: red;
+}
+
+/* Remove bullet points from unordered lists */
+.button-list {
+    list-style-type: none;
+}
+
+/* Remove list-style markers from list items within button-list class */
+.button-list li {
+    list-style: none !important; 
+}
