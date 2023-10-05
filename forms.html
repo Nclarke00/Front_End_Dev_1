@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="forms.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+
+    <style>
+        label {
+            display: block; 
+            margin-bottom: 5px; 
+        }
+
+        textarea {
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Assignment 2</h1>
+
+    <form>
+        <!-- Label and input field for First Name -->
+        <label for="textName">First Name:</label>
+        <input type="text" id="textName" name="textName" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Label and input field for Last Name -->
+        <label for="textName">Last Name:</label>
+        <input type="text" id="textName" name="textName" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Label and dropdown menu for Suffix -->
+        <label for="dropdownsuffix">Suffix:</label>
+        <select id="dropdownsuffix" name="dropdownsuffix">
+            <!-- Dropdown options for Suffix -->
+            <option value="None">None</option>
+            <option value="Sr.">Sr</option>
+            <option value="Jr.">Jr</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+            <option value="V">V</option>
+        </select>
+        <br><br>
+
+        <!-- Label and dropdown menu for Gender -->
+        <label for="dropdowngender">Gender:</label>
+        <select id="dropdowngender" name="dropdowngender">
+            <!-- Dropdown options for Gender -->
+            <option value="None">None</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+
+        <!-- Label and textarea for "About You" -->
+        <div class="textarea-container">
+            <label for="textArea">About You:</label>
+            <textarea id="textArea" name="textArea" rows="4" cols="50" placeholder="Enter some text"></textarea>
+        </div>
+        <br><br>
+
+        <!-- Label and input field for Date Of Birth -->
+        <label for="DOB">Date Of Birth:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <!-- Submit button for the form -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
