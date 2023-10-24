@@ -20,3 +20,13 @@ the history of the conflict. There is also data on wikipedia about the conflict
 that spans earlier than the year 2000 that I beleive would be helpful. 
 To make the page responsive, I will add this <meta> tag to my web pages
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+# WIP Checkin
+
+So far, while working on this project. I have created the basic html structure as a portal. When I 
+continue, I will usew the API of the desired website for data use. One thing to keep in mind is
+that the website that I origionally intended to use has a non-public API. Therefore, I will be 
+looking for a new website for my data. One possible location for this is Wikipedia. they display 
+a table of data that I may be able to use. Another possible location is the UN website where 
+they do have data regarding the conflict in Israel. After this is done, I will be using javascript 
+to add visualizations to the page and add links to educational videos.
