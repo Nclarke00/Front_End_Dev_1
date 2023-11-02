@@ -1,4 +1,4 @@
-# Israel - Palestine conflict information page
+# Brewery/beer page
 
 The purpose of this project is to educate the public about the ongoing conflict between Israel 
 and Palestine. My webpage does not persuade the user to take the side of either party. Additionally 
@@ -30,3 +30,9 @@ looking for a new website for my data. One possible location for this is Wikiped
 a table of data that I may be able to use. Another possible location is the UN website where 
 they do have data regarding the conflict in Israel. After this is done, I will be using javascript 
 to add visualizations to the page and add links to educational videos.
+
+# Update 
+
+After trying and failing to get access to meaningful data about the conflict in israel, I decided to pivot my assignment to something
+with more accessible data and a lot more light-hearted. I decided to make a web page that displays an extensive list of breweries depending
+on the state you live in. In additon, you will be able to filter for beers that you are interested in trying. 
