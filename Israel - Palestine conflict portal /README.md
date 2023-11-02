@@ -36,3 +36,17 @@ to add visualizations to the page and add links to educational videos.
 After trying and failing to get access to meaningful data about the conflict in israel, I decided to pivot my assignment to something
 with more accessible data and a lot more light-hearted. I decided to make a web page that displays an extensive list of breweries depending
 on the state you live in. In additon, you will be able to filter for beers that you are interested in trying. 
+
+# Process
+
+I started by finding an API (Open Brewery DB) containing a database full of breweries by state. 
+Using fetch API I was able to use it in a dropdown menu which could be selected by users. There are 
+two main features of the webpage: Getting breweries by State and filtering Beers by type. When 
+finding a list of breweries, users will click the Get Breweries buttonwhich triggers and event 
+listener. the event listener retreives the selected state (from a hardcoded list) and makes a 
+request to the "Open Brewery 
+DB" APIin order to get data of those breweries. It then displays the list on the page. 
+When filtering beers by type, you can select a type of beer from a dropdown. The filter beers 
+button triggers another event listener which retreives the beer selected. It then fetches data from 
+a seperate JSON file containing 50 different beers. The beers are then displayed with their type, 
+and rating.
