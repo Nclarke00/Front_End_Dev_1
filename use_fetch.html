@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Random Useless Fact</title>
+</head>
+<body>
+    <button id="fetchButton">Generate Random Useless Fact</button>
+    <p id="factDisplay"></p>
+
+    <script>
+        document.getElementById("fetchButton").addEventListener("click", fetchRandomFact);
+
+        function fetchRandomFact() {
+            fetch('https://uselessfacts.jsph.pl/random.json?language=en')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("factDisplay").textContent = data.text;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</body>
+</html>
