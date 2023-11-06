@@ -50,3 +50,25 @@ When filtering beers by type, you can select a type of beer from a dropdown. The
 button triggers another event listener which retreives the beer selected. It then fetches data from 
 a seperate JSON file containing 50 different beers. The beers are then displayed with their type, 
 and rating.
+
+
+# Reflection
+
+I decided to pivot my project in the last week or 2 for a number of reasons. The first being 
+that I could not find an extensive and accurate database on the conflict in israel that I
+could use in my project. The second and probably more important reason is that the subject
+is just very touchy and I thougt the brewery project would be a little more fun, light-hearted
+and overall more appropriate for the assignment. I would've liked to add more content to the 
+project such as an alphebetical filter in order to limit the amount of breweries displayed
+on the page. It also would have been nice to have more filters/questions to allow a more 
+personalized search for beer. Lastly, I should have made the page more asthetically pleasing 
+by adding a background with maybe a picture of beer. Making the first filter was somewhat 
+challenging. I found a similar example in stack overflow, but had to modify it quite a bit in
+oder to make it run in my code. After I wrote the code for the first filter, the second one was 
+a bit easier. Something I would change if I did it again was the list of states and beer types.
+As it is, I hard-coded the lists in the html file which makes it look sloppy and takes up too 
+much space. I think instead I should have put them into a seperate file and had the javascript 
+pull the data out of the file and display it on the page. It also took me a while to get the 
+"no beers found" warning to display. I had to ask a friend how to get that specific part of the 
+code to work, but the solution seemed pretty straight forward after we discussed the logic. 
+I likied getting a little more expereince getting data out of a JSON file and I feel more confident about it. 
