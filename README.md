@@ -33,3 +33,11 @@ For assignment 1 I created a page that contain three different buttons. The firs
 # Assignment 2
 
 For assignemt 2, I used stack overflow for some of the base code. I used it to learn about the "for" attribute in a <label> tag. I also used stack overflow to learn how to use the <select> element to create a dropdown menu. Using these peices of information, I was able to create a form where the user can input their name, date of birth and other personal information. 
+
+
+
+# Assignment 3
+
+# Assignment 4
+
+# Assignment 5
